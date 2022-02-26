@@ -1,0 +1,40 @@
+body{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.7) 50%)
+  , url("./img/choctaw-bluff-g91d538985_1920.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+#day{
+  font-size: 120px;
+  color: #F3D75A;
+}
+
+#night{
+  font-size: 120px;
+  color: #D3D0C3;
+}
+
+#time{
+  font-size: 48px;
+  color: white;
+}
+
+.day_night{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 18%
+}
+
+.times{
+  display: flex;
+  justify-content: space-around;
+}
+
+.day_night a:hover{transform:scale(1.5,1.5);}
